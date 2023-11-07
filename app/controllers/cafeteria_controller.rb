@@ -1,0 +1,2 @@
+class CafeteriaController < ApplicationController
+end

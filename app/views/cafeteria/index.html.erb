@@ -1,0 +1,150 @@
+<% if logged_in? %>
+<div class="mainBlock">
+    <div class="book-section" >
+        <div id="book-container" class="container">
+            <div class="right">
+                <figure class="back" id="appetizerOptions" style="width:100%; height: 100%; background: url('masalas.jpeg') no-repeat center left fixed; background-size: cover">
+                </figure>
+                <figure class="front" >
+                <p class="title" style="margin-top: 1%;">Contents Page</p>
+
+                    <table class="ContentTable">
+                        <th>
+                                Categories
+                        </th>
+                        <th>
+                                Go to Page
+                        </th>
+                         <tr>
+                            <td>
+                                Drinks
+                            </td>
+                            <td>
+                                <button id="DrinksCategory" class="buttons inner" onclick="turnRight()">Drinks</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Appetizers
+                            </td>
+                            <td>
+                                <button id="AppetizerCategory" class="buttons inner" onclick="turnRight()">Appetizers</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Lunch
+                            </td>
+                            <td>
+                                <button id="LunchCategory" class="buttons inner" onclick="turnRight()">Lunch</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Snacks
+                            </td>
+                            <td>
+                                <button id="SnacksCategory" class="buttons inner" onclick="turnRight()">Snacks</button>  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Dinner
+                            </td>
+                            <td>
+                                <button id="DinnerCategory" class="buttons inner" onclick="turnRight()">Dinner</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Desserts
+                            </td>
+                            <td>
+                                <button id="DessertsCategory" class="buttons inner" onclick="turnRight()">Desserts</button>
+                            </td>
+                        </tr>
+                        
+                    </table>
+                </p>
+                </figure>
+            </div> 
+            
+            <div class="right">        
+                <figure class="back" style="width:100%; height: 100%; background: url('restaurant.jpeg') no-repeat center center fixed; background-size: cover"></figure>
+                <figure class="front">
+                    <div>
+                        <p class="title" style="font-size: 18px; margin-top: 15%; margin-bottom: 0%;padding-bottom: 0px; text-transform: none; color: black">Welcome To</p>
+                        <p class="title" style="margin-top: 0%; padding-top: 0px;">Maharashtra Delights</p>
+                        <h2 class="author">MENU CARD</h2><br>
+
+                        <div>
+                        <span class="catchLine">Craving for a Maharastrian delicacy? 
+                        <br>Order us right away! :)</span><br>
+                        
+                        </div>
+                        <br><br>
+                        <div>
+                        <span class="catchLine">Ready to Order? </span><br><br>
+                        <button class="buttons" style="font-size: 18px" onclick="turnRight()">Check out our Menu</button>                         
+                        </div>
+                    </div>
+                </figure>
+                
+                
+            </div>
+            
+            <div class="right">
+                <figure class="back" style="width:100%; height: 100%; background: url('pangat.jpeg') no-repeat center center fixed;"></figure>
+                <figure class="front" id="cover">
+                    <h1>Maharashtra Delights</h1>
+                    <p>Artesia, Los Angeles</p>
+                </figure>
+            </div>
+
+            <script src="contents.js"></script>
+        </div>
+
+        <div class="buttonDiv">
+            <button class="buttons PrevB" onclick="turnLeft()">Previous Page</button> 
+            <button class="buttons"><%= link_to  "Sign Out", "/signout"%></p>
+            <button class="buttons NextB"  onclick="turnRight()" style="float: right;">Next Page</button>
+
+        </div>
+        <br/>
+    </div>
+    
+    <div class="payment-section" id="payment-bill"> 
+        <div class="card">
+            <div class="title-payment">Maharashtra Delights</div>
+            <div class = "tableClass">
+                <table id="billing">
+                </table>
+            </div>
+            <div style="display:flex;font-size: 25px;height: 7%;padding-left:20px"> 
+                <p style="margin:auto 0;width: 50%;">Subtotal:</p>
+                <p style="margin:auto 0;width: 50%;" id="subtotal">$0.00</p>
+                <p style="margin: 0; text-align: left; width: 30%; font-size: 15px; margin: auto 0;">+ taxes</p>
+            </div>
+        </div>
+        <div class="buttonDiv" id="total-amount">
+            <%= form_tag payment_index_path do %>
+                <input type="hidden" id="payment-value" name="aggregate" value="">
+                <script id="stripe-script" src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_51NImjtLitmvFdHSzuYPE7xooyVFjYWEbQZaWeB1JcMybsHuIHFIvraMarthRZEL56aYmQErRbW7zNQg5LZ4wG5Q3001mxqknOo"
+                    data-description="PAYMENT GATEWAY"
+                    data-amount = subtotal
+                    data-locale="auto"> 
+                </script>
+            <% end %> 
+        </div>
+    </div>
+</div>
+<script src="flips.js"></script>
+
+<% else %>
+<div class="renderingcart">
+<h5 style="color:red">Please login to view the menus page</h5>
+<%= button_to "Login", '/', method: :get%><br>
+<%= button_to "Sign Up", '/', method: :get%>
+</div>
+<% end %>

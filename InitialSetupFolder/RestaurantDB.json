@@ -1,0 +1,474 @@
+[
+    {
+        "name": "Pani Puri",
+        "category": "Appetizers",
+        "description": "Hollow semolina balls filled with spicy and tangy flavored water, tamarind chutney, and a mixture of potatoes and chickpeas.",
+        "price": 10.99,
+        "created_at": "2023-11-06T03:21:45.296Z",
+        "updated_at": "2023-11-06T03:21:45.296Z"
+    },
+    {
+        "name": "Dhokla",
+        "category": "Appetizers",
+        "description": "A steamed, spongy, and mildly sweet cake made from fermented rice and chickpea flour, often garnished with mustard seeds and coconut.",
+        "price": 6.99,
+        "created_at": "2023-11-06T03:23:02.004Z",
+        "updated_at": "2023-11-06T03:23:02.004Z"
+    },
+    {
+        "name": "Samosa Chaat",
+        "category": "Appetizers",
+        "description": "Crushed samosas topped with yogurt, chutneys, and garnishes, turning samosas into a flavorful snack",
+        "price": 8.99,
+        "created_at": "2023-11-06T03:23:36.487Z",
+        "updated_at": "2023-11-06T03:23:36.487Z"
+    },
+    {
+        "name": "Chaat Papri",
+        "category": "Appetizers",
+        "description": "A combination of crispy fried dough wafers, boiled chickpeas, potatoes, yogurt, and various chutneys.",
+        "price": 4.99,
+        "created_at": "2023-11-06T03:24:14.854Z",
+        "updated_at": "2023-11-06T03:24:14.854Z"
+    },
+    {
+        "name": "Dabeli",
+        "category": "Appetizers",
+        "description": "A sandwich made with a spiced potato filling, sweet chutney, and served in a bun.",
+        "price": 9.99,
+        "created_at": "2023-11-06T03:24:58.220Z",
+        "updated_at": "2023-11-06T03:24:58.220Z"
+    },
+    {
+        "name": "Goli Baje",
+        "category": "Appetizers",
+        "description": "A South Indian snack made from a fermented batter of rice flour and yogurt, deep-fried to a golden brown",
+        "price": 7.99,
+        "created_at": "2023-11-06T03:25:25.000Z",
+        "updated_at": "2023-11-06T03:25:25.000Z"
+    },
+    {
+        "name": "Ragda Patties",
+        "category": "Appetizers",
+        "description": "Potato patties served with a spicy dried white peas curry and chutneys.",
+        "price": 7.99,
+        "created_at": "2023-11-06T03:25:48.520Z",
+        "updated_at": "2023-11-06T03:25:48.520Z"
+    },
+    {
+        "name": "Kathi Rolls",
+        "category": "Appetizers",
+        "description": "A popular street food featuring various fillings (e.g., kebabs, paneer) wrapped in paratha or flatbread",
+        "price": 4.99,
+        "created_at": "2023-11-06T03:26:15.760Z",
+        "updated_at": "2023-11-06T03:26:15.760Z"
+    },
+    {
+        "name": "Rasmalai",
+        "category": "Desserts",
+        "description": "Bengali Cheesecake soaked in Condensed Sweetened Milk, topped with nuts.",
+        "price": 5.95,
+        "created_at": "2023-11-06T02:22:55.777Z",
+        "updated_at": "2023-11-06T02:22:55.777Z"
+    },
+    {
+        "name": "Shrikhand",
+        "category": "Desserts",
+        "description": "Silky Smooth Yogurt Treat with a Pinch of Ground Cardamom",
+        "price": 8.95,
+        "created_at": "2023-11-06T02:23:27.290Z",
+        "updated_at": "2023-11-06T02:23:27.290Z"
+    },
+    {
+        "name": "Mughali Kheer",
+        "category": "Desserts",
+        "description": "Rice Pudding Topped with Almonds, Saffron, \u0026 Raisins",
+        "price": 6.95,
+        "created_at": "2023-11-06T02:23:55.667Z",
+        "updated_at": "2023-11-06T02:23:55.667Z"
+    },
+    {
+        "name": "Salted Caramel GulabJamun",
+        "category": "Desserts",
+        "description": "(3 pcs) “Indian Doughnut” soaked in Sweet \u0026 Salted Caramel Syrup",
+        "price": 7.95,
+        "created_at": "2023-11-06T02:24:48.900Z",
+        "updated_at": "2023-11-06T02:24:48.900Z"
+    },
+    {
+        "name": "Mango Kulfi",
+        "category": "Desserts",
+        "description": "Rich \u0026 Creamy Indian Mango Ice Cream",
+        "price": 4.95,
+        "created_at": "2023-11-06T02:25:37.841Z",
+        "updated_at": "2023-11-06T02:25:37.841Z"
+    },
+    {
+        "name": "Malai Kulfi",
+        "category": "Desserts",
+        "description": "Rich \u0026 Creamy Indian Ice Cream",
+        "price": 6.95,
+        "created_at": "2023-11-06T02:26:00.064Z",
+        "updated_at": "2023-11-06T02:26:00.064Z"
+    },
+    {
+        "name": "Kalakand",
+        "category": "Desserts",
+        "description": "An Indian form of cheesecake made from sweetened milk with chopped nuts and, sometimes, saffron and edible silver foil",
+        "price": 6.95,
+        "created_at": "2023-11-06T02:29:08.365Z",
+        "updated_at": "2023-11-06T02:29:08.365Z"
+    },
+    {
+        "name": "Petha",
+        "category": "Desserts",
+        "description": "A translucent looking, soft, chewy and candy-like, eaten dry or dipped in sugar syrup (chashni)",
+        "price": 3.95,
+        "created_at": "2023-11-06T02:30:55.248Z",
+        "updated_at": "2023-11-06T02:30:55.248Z"
+    },
+    {
+        "name": "Chole Bhature",
+        "category": "Dinner",
+        "description": "Garbanzo Bean Curry Served w/ Thick Fluffy Fried Bread",
+        "price": 4.99,
+        "created_at": "2023-11-06T03:02:47.463Z",
+        "updated_at": "2023-11-06T03:02:47.463Z"
+    },
+    {
+        "name": "Sarson ka Saag with Makki ki Roti",
+        "category": "Dinner",
+        "description": "Spinach Curry in Ginger \u0026 Mustard Leaves",
+        "price": 4.99,
+        "created_at": "2023-11-06T03:03:54.612Z",
+        "updated_at": "2023-11-06T03:03:54.612Z"
+    },
+    {
+        "name": "Amritsari Kulcha with Chole",
+        "category": "Dinner",
+        "description": "A crispy as well as soft leavened bread stuffed with potatoes and spices",
+        "price": 6.99,
+        "created_at": "2023-11-06T03:05:01.286Z",
+        "updated_at": "2023-11-06T03:05:01.286Z"
+    },
+    {
+        "name": "Aloo Paratha",
+        "category": "Dinner",
+        "description": "Flatbread Stuffed w/ Potato Masala Mix – Served w/ Yogurt \u0026 Pickles",
+        "price": 8.99,
+        "created_at": "2023-11-06T03:05:40.891Z",
+        "updated_at": "2023-11-06T03:05:40.891Z"
+    },
+    {
+        "name": "Gobi Paratha",
+        "category": "Dinner",
+        "description": "Flatbread Stuffed w/Cauliflower Masala Mix – Served w/ Yogurt \u0026 Pickles",
+        "price": 9.99,
+        "created_at": "2023-11-06T03:06:25.019Z",
+        "updated_at": "2023-11-06T03:06:25.019Z"
+    },
+    {
+        "name": "Vegetable Dum Biriyani",
+        "category": "Dinner",
+        "description": "16th Century Steam \u0026 Smoke Style Cooking of Aromatic Basmati Rice w/ Vegetables \u0026 Cottage Cheese – Served w/ Yogurt \u0026 Pickles",
+        "price": 9.99,
+        "created_at": "2023-11-06T03:07:25.571Z",
+        "updated_at": "2023-11-06T03:07:25.571Z"
+    },
+    {
+        "name": "Two Curry Combos",
+        "category": "Dinner",
+        "description": "Choice of Two Curries, Daal, Bread, Rice, and Side of Raita \u0026 Pickle",
+        "price": 9.99,
+        "created_at": "2023-11-06T03:08:16.806Z",
+        "updated_at": "2023-11-06T03:08:16.806Z"
+    },
+    {
+        "name": "Three Curry Combos",
+        "category": "Dinner",
+        "description": "Choice of Three Curries, Daal, Bread, Rice, and Side of Raita \u0026 Pickle",
+        "price": 9.99,
+        "created_at": "2023-11-06T03:08:39.732Z",
+        "updated_at": "2023-11-06T03:08:39.732Z"
+    },
+    {
+        "name": "Maharashtra Delights Combos",
+        "category": "Dinner",
+        "description": "Choice of Three Curries, 1 Daal, 1 Bread, 1 Rice, 1 Appetizer, and 1 Dessert with a Side of Papaddum, Raita \u0026 Pickle.",
+        "price": 19.99,
+        "created_at": "2023-11-06T03:09:10.021Z",
+        "updated_at": "2023-11-06T03:09:10.021Z"
+    },
+    {
+        "name": "Maharashtra Family Meal",
+        "category": "Dinner",
+        "description": "(Serves up to 4) Choice of Three Curries, Daal, Two Breads, Rice, and Side of Raita \u0026 Pickle",
+        "price": 19.99,
+        "created_at": "2023-11-06T03:09:42.813Z",
+        "updated_at": "2023-11-06T03:09:42.813Z"
+    },
+    {
+        "name": "Mango Lassi",
+        "category": "Drinks",
+        "description": "A sweet and savoury Indian drink from yogurt and buttermilk base with water, garnished with mango pulp",
+        "price": 4.95,
+        "created_at": "2023-11-06T02:17:34.326Z",
+        "updated_at": "2023-11-06T02:17:34.326Z"
+    },
+    {
+        "name": "Plain Lassi",
+        "category": "Drinks",
+        "description": "A sweet and savoury Indian drink made from a yogurt or buttermilk base with water",
+        "price": 4.95,
+        "created_at": "2023-11-06T02:18:41.885Z",
+        "updated_at": "2023-11-06T02:18:41.885Z"
+    },
+    {
+        "name": "Masala Lassi",
+        "category": "Drinks",
+        "description": "A sweet and savoury Indian drink made from a yogurt or buttermilk base with water",
+        "price": 3.95,
+        "created_at": "2023-11-06T02:19:06.550Z",
+        "updated_at": "2023-11-06T02:19:06.550Z"
+    },
+    {
+        "name": "Rose Lassi",
+        "category": "Drinks",
+        "description": "A sweet and savoury Indian drink made from a yogurt or buttermilk base with water garnished with Rose petals",
+        "price": 3.95,
+        "created_at": "2023-11-06T02:19:43.179Z",
+        "updated_at": "2023-11-06T02:19:43.179Z"
+    },
+    {
+        "name": "Strawberry Lassi",
+        "category": "Drinks",
+        "description": "A sweet and savoury Indian drink made from a yogurt or buttermilk base with water garnished with Strawberry petals",
+        "price": 5.95,
+        "created_at": "2023-11-06T02:20:57.677Z",
+        "updated_at": "2023-11-06T02:20:57.677Z"
+    },
+    {
+        "name": "Pav Bhaji",
+        "category": "Lunch",
+        "description": "Spicy vegetable curry served with buttered rolls",
+        "price": 8.99,
+        "created_at": "2023-11-06T01:36:15.103Z",
+        "updated_at": "2023-11-06T01:36:15.103Z"
+    },
+    {
+        "name": "Gobi Manchurian",
+        "category": "Lunch",
+        "description": "Cauliflower prepared in Indo-Chinese style",
+        "price": 13.95,
+        "created_at": "2023-11-06T02:37:53.022Z",
+        "updated_at": "2023-11-06T02:37:53.022Z"
+    },
+    {
+        "name": "Malai Kofta",
+        "category": "Lunch",
+        "description": "Ground Vegetable Balls cooked in a creamy curry with cashews, almonds and raisins",
+        "price": 13.95,
+        "created_at": "2023-11-06T02:42:20.760Z",
+        "updated_at": "2023-11-06T02:42:20.760Z"
+    },
+    {
+        "name": "Bhindi Masala",
+        "category": "Lunch",
+        "description": "Fresh cut okra with chopped onions, ginger, garlic, tomatoes, herbs and spices",
+        "price": 8.95,
+        "created_at": "2023-11-06T02:44:12.965Z",
+        "updated_at": "2023-11-06T02:44:12.965Z"
+    },
+    {
+        "name": "Matar Paneer",
+        "category": "Lunch",
+        "description": "Homemade Indian cheese cubes and green peas cooked with ground onions, ginger, garlic, tomatoes, and spices",
+        "price": 7.95,
+        "created_at": "2023-11-06T02:45:17.433Z",
+        "updated_at": "2023-11-06T02:45:17.433Z"
+    },
+    {
+        "name": "Saag Paneer",
+        "category": "Lunch",
+        "description": "Hommade indian cheese cubes and ground spinach cooked with a base of ground onions, tomatoes, garlic, ginger, a touch of cream, herbs and spices",
+        "price": 7.99,
+        "created_at": "2023-11-06T02:46:34.208Z",
+        "updated_at": "2023-11-06T02:46:34.208Z"
+    },
+    {
+        "name": "Paneer Masala",
+        "category": "Lunch",
+        "description": "Hommade indian cheese cubes and sauteed in onions and bell peppers with ground ginger, tomatoes, herbs and rich flavoured spices",
+        "price": 7.99,
+        "created_at": "2023-11-06T02:49:50.470Z",
+        "updated_at": "2023-11-06T02:49:50.470Z"
+    },
+    {
+        "name": "Shahi Paneer",
+        "category": "Lunch",
+        "description": "Hommade indian cheese cubes in a creamy tomato curry made with herbs and spices",
+        "price": 8.99,
+        "created_at": "2023-11-06T02:51:14.600Z",
+        "updated_at": "2023-11-06T02:51:14.600Z"
+    },
+    {
+        "name": "Dal Makhani",
+        "category": "Lunch",
+        "description": "Simmered black lentils cooked with ginger, garlic, tomatoes, onions, creamy butter and spices",
+        "price": 12.99,
+        "created_at": "2023-11-06T02:52:45.469Z",
+        "updated_at": "2023-11-06T02:52:45.469Z"
+    },
+    {
+        "name": "Aloo Matar",
+        "category": "Lunch",
+        "description": "potatoes and green peas cooked with ground tomatoes, onions, ginger, garlic and spices",
+        "price": 7.99,
+        "created_at": "2023-11-06T02:53:38.564Z",
+        "updated_at": "2023-11-06T02:53:38.564Z"
+    },
+    {
+        "name": "Vegetable Korma",
+        "category": "Lunch",
+        "description": "Fresh vegetables and homemade Indian cheese cubes cooked in a creamy curry, garnished with cashews",
+        "price": 8.99,
+        "created_at": "2023-11-06T02:54:31.621Z",
+        "updated_at": "2023-11-06T02:54:31.621Z"
+    },
+    {
+        "name": "Mushroom Masala",
+        "category": "Lunch",
+        "description": "Mushrooms, vegetables with served in a creamy sauce",
+        "price": 8.99,
+        "created_at": "2023-11-06T02:55:25.228Z",
+        "updated_at": "2023-11-06T02:55:25.228Z"
+    },
+    {
+        "name": "Vegetable Samosa",
+        "category": "Snacks",
+        "description": "Deep Fried Patties Stuffed With Mildly Spiced Potatoes And Peas(two pieces)",
+        "price": 4.95,
+        "created_at": "2023-11-06T01:48:24.729Z",
+        "updated_at": "2023-11-06T01:48:24.729Z"
+    },
+    {
+        "name": "Samosa Chole",
+        "category": "Snacks",
+        "description": "Samosa and Garbanzos spiced with Mint, Tamarind and Yogurt",
+        "price": 4.95,
+        "created_at": "2023-11-06T02:00:23.628Z",
+        "updated_at": "2023-11-06T02:00:23.628Z"
+    },
+    {
+        "name": "Spinach Onion Pakoras",
+        "category": "Snacks",
+        "description": "Onion and Spinach Crispy Fritters",
+        "price": 4.95,
+        "created_at": "2023-11-06T02:01:05.257Z",
+        "updated_at": "2023-11-06T02:01:05.257Z"
+    },
+    {
+        "name": "Paneer Pakoras",
+        "category": "Snacks",
+        "description": "Cheese Fritters",
+        "price": 6.95,
+        "created_at": "2023-11-06T02:01:39.425Z",
+        "updated_at": "2023-11-06T02:01:39.425Z"
+    },
+    {
+        "name": "Veg Spring Rolls",
+        "category": "Snacks",
+        "description": "Veg Spring Rolls",
+        "price": 4.95,
+        "created_at": "2023-11-06T02:02:34.073Z",
+        "updated_at": "2023-11-06T02:02:34.073Z"
+    },
+    {
+        "name": "Vada Pav",
+        "category": "Snacks",
+        "description": "Batter Fried Spicy Potato Patties covered with mint chutney in a Bun",
+        "price": 5.95,
+        "created_at": "2023-11-06T02:05:11.760Z",
+        "updated_at": "2023-11-06T02:05:11.760Z"
+    },
+    {
+        "name": "Bhel Puri",
+        "category": "Snacks",
+        "description": "Puffed Rice Cereal Mixed With tomato, Onion, And Cilantro With Sweet \u0026 Spicy Sauce",
+        "price": 4.95,
+        "created_at": "2023-11-06T02:05:49.605Z",
+        "updated_at": "2023-11-06T02:05:49.605Z"
+    },
+    {
+        "name": "Chole Batura",
+        "category": "Snacks",
+        "description": "Fried Leavened Bread served with Garbanzo Beans Cooked In Rich Tomato And Onion Gravy",
+        "price": 9.95,
+        "created_at": "2023-11-06T02:07:22.985Z",
+        "updated_at": "2023-11-06T02:07:22.985Z"
+    },
+    {
+        "name": "Plain Dosa",
+        "category": "Snacks",
+        "description": "Rice and lentil crepe",
+        "price": 9.95,
+        "created_at": "2023-11-06T02:08:23.088Z",
+        "updated_at": "2023-11-06T02:08:23.088Z"
+    },
+    {
+        "name": "Masala Dosa",
+        "category": "Snacks",
+        "description": "Rice and lentil crepe stuffed with potato masala",
+        "price": 12.95,
+        "created_at": "2023-11-06T02:08:57.101Z",
+        "updated_at": "2023-11-06T02:08:57.101Z"
+    },
+    {
+        "name": "Onion Chili Tomato Uttapam",
+        "category": "Snacks",
+        "description": "Rice and lentil pancakes topped with onion, chili and tomato",
+        "price": 13.95,
+        "created_at": "2023-11-06T02:09:39.401Z",
+        "updated_at": "2023-11-06T02:09:39.401Z"
+    },
+    {
+        "name": "Plain Uttapam",
+        "category": "Snacks",
+        "description": "Rice and lentil pancakes",
+        "price": 13.95,
+        "created_at": "2023-11-06T02:10:12.414Z",
+        "updated_at": "2023-11-06T02:10:12.414Z"
+    },
+    {
+        "name": "Idly",
+        "category": "Snacks",
+        "description": "Steamed rice and lentil cakes seasoned with sambar and chutney",
+        "price": 13.95,
+        "created_at": "2023-11-06T02:10:58.170Z",
+        "updated_at": "2023-11-06T02:10:58.170Z"
+    },
+    {
+        "name": "Medu Vada",
+        "category": "Snacks",
+        "description": "Deep fried lentil doughnuts seasoned with sambar and chutney",
+        "price": 3.95,
+        "created_at": "2023-11-06T02:11:39.740Z",
+        "updated_at": "2023-11-06T02:11:39.740Z"
+    },
+    {
+        "name": "Dahi Vada",
+        "category": "Snacks",
+        "description": "Lentil doughnuts in yogurt",
+        "price": 4.95,
+        "created_at": "2023-11-06T02:12:21.926Z",
+        "updated_at": "2023-11-06T02:12:21.926Z"
+    },
+    {
+        "name": "Poha",
+        "category": "Snacks",
+        "description": "Flattened rice, onions, spices, herbs, lemon juice and peanuts garnished with some crunchy sev, fresh cut onions or with grated coconut.",
+        "price": 8.99,
+        "created_at": "2023-11-07T05:49:29.684Z",
+        "updated_at": "2023-11-07T05:49:29.684Z"
+    }
+]

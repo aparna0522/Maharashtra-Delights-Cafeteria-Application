@@ -1,0 +1,35 @@
+<% if logged_in? %>
+    <div class="menus-section"> 
+        <div class="card">
+            <div class="title-payment">Maharashtra Delights</div>
+            <h2 style="text-align: center;padding-bottom: 40px">Current Logged in Owner Name: <%= %> </h2>
+                <form action="/addmenu", method="POST" class="form-group">
+                    <section>
+                        <input type="hidden" name="authenticity_token" value="<%=form_authenticity_token%>">
+                        <label class="labelStyle">Category Name</label>
+                        <input type="text" class="formInput" required = true name="menu[category]" placeholder="Enter food category..." size = 37 ><br><br>
+                        
+                        <label class="labelStyle" for="ItemName">Menu Item Name</label>
+                        <input type="text" class="formInput"name="menu[name]" required = true placeholder="Enter menu to add..." size =37><br><br>
+                        
+                        <label class="labelStyle" for="description">Menu Item Description</label>
+                        <input type="text" class="formInput"name="menu[description]" required = true placeholder="Enter menu description..." size = 37><br><br>
+                        
+                        <label class="labelStyle" for="price">Menu Item Price</label>
+                        <input type="numeric" class="formInput" name="menu[price]" required = true placeholder="Enter the price..." size =37><br><br>
+                            
+                    </section>
+                
+        <div class="buttonDiv">
+            <input class="buttons" type="submit" style="margin-left: 35%;" value="Add to Menu"><br>
+            <center><button class="buttons"><%= link_to  "Sign Out", "/signout"%></center>
+        </div>
+        </form>
+    <div>
+<% else %>
+    <div class="renderingcart">
+    <h4 style= "color:red">Please signup or login as an owner to view the contents of this page</h4><br>
+    <%= button_to "Login", '/', method: :get%><br>
+    <%= button_to "Sign Up", '/', method: :get%>
+    </div>  
+<%end%>

@@ -1,0 +1,2 @@
+class MenuCard < ApplicationRecord
+end

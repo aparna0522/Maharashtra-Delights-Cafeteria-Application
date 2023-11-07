@@ -1,0 +1,18 @@
+<% if logged_in? %>
+  <%= form_tag payment_index_path do %>
+      <article>
+        <label class="amount">
+          <center><span>Amount Received: $<%= @subtotal.to_f/100 %></span>
+          <h2>Thank you for the payment! We have received your order and are working on it currently!!</h2>
+        </label>
+      </article>
+      <button class="buttons"><%= link_to  "Check out our Menu", "/dashboard"%><br>
+      <button class="buttons"><%= link_to  "Sign Out", "/signout"%>
+  <% end %>
+<% else %>
+  <div class="renderingcart">
+  <h5 style="color:red">Please login to view the menus page</h5>
+  <%= button_to "Login", '/', method: :get%><br>
+  <%= button_to "Sign Up", '/', method: :get%>
+  </div>
+<% end %>

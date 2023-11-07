@@ -1,0 +1,195 @@
+<div class="book-section">
+    <div class="container">
+        <div class="right">
+            <figure class="back" id="back-cover"></figure>
+            <figure class="front">
+                <h1 class="title">Login</h1>
+                <div class="page__content-innerContent">
+                    
+                    <form action="/sessions", method="POST">
+                        <section class="borderbox">
+                        <div class="errors" style = "color:red" >
+                        <% if flash[:login_errors] %>
+                            <% flash[:login_errors].each do |error| %>
+                                <p> <%= error %>
+                                <script>Error!!</script>
+                            <%end%>
+                        <% end %>
+                        
+                    </div>
+                    <input type="hidden" name="authenticity_token" value="<%=form_authenticity_token%>">
+                        
+                            <label class="labelStyle" for="emailid">Email ID</label>
+                            <input type="email" class="formInput"name="login[email]" required = true placeholder="Your Email Address" size =30><br><br>
+                            
+                            <label class="labelStyle" for="fname">Password</label>
+                            <input type="password" class="formInput" name="login[password]" required = true placeholder="Your password" size = 30><br><br>
+                            
+                            <label class="labelStyle">Your role</label>
+                            <select class="formInput" name="roles" placeholder="Select one">
+                                <option value="Customer">Customer</option>
+                                <option value="Owner">Owner</option>
+                                <option value="Clerk">Clerk</option>
+                            </select>
+                            <br><br>
+                            <input class= "buttons inner" type="submit" value="Login">
+                        </section>
+                    </form>
+                        Are you a new user? <button class="buttons inner" onclick="turnLeft()">Register Here</button> 
+                </div>
+            </figure>
+        </div>
+        
+        <div class="right">
+            <figure class="back" style="background: url(login.jpeg); no-repeat center center fixed; background-size: contain"></figure>
+            <figure class="front">
+                <h1 class="title">Register</h1>
+                <div class="page__content-innerContent">
+                    <form action="/customers", method="POST" class="form-group">
+                        <section class="borderbox">
+                            <div class="errors" style = "color:red" >
+                                <% if flash[:register_errors] %>
+                                    <% flash[:register_errors].each do |error| %>
+                                        <p> <%= error %>
+                                    <%end%>
+                                <% end %>
+                            </div>
+                            <input type="hidden" name="authenticity_token" value="<%=form_authenticity_token%>">
+                            <label class="labelStyle">Full Name</label><br>
+                            <input type="text" class="formInput" required = true name="user[name]" placeholder="Your Name" size = 30 ><br><br>
+                            
+                            <label class="labelStyle" for="emailid">Email ID</label><br>
+                            <input type="email" class="formInput"name="user[email]" required = true placeholder="Your Email Address" size =30><br><br>
+                            
+                            <label class="labelStyle" for="fname">Password</label><br>
+                            <input type="password" class="formInput" name="user[password]" required = true placeholder="Your password" size = 30><br><br>
+                            
+                            <label class="labelStyle" for="price">Confirm Password</label><br>
+                            <input type="password" class="formInput" name="user[password_confirmation]" required = true placeholder="Re-enter your password." size =30><br><br>
+                            
+                            <label class="labelStyle" for="roles">Your role</label><br>
+                            <select id="roles" class="formInput" name="roles" placeholder="Select one" size = 1>
+                                <option value="Customer">Customer</option>
+                                <option value="Owner">Owner</option>
+                                <option value="Clerk">Clerk</option>
+                            </select>
+                            <br>
+                            <br>
+                            <input class= "buttons inner" type="submit" value="Register">
+                        </section>
+                    </form>
+                </div>
+            </figure>
+        </div>
+        
+        <div class="right">
+            <figure class="back" style="background: url('register.jpeg') no-repeat center center fixed; background-size: cover"></figure>
+            <figure class="front" >
+            <p class="title"> About Us</p>
+            <p class="credits">
+                Experience the vibrant flavors of Maharashtra in LA. Our restaurant celebrates the rich cultural heritage and distinctive cuisine of Maharashtra. 
+                <br><br>Talented chefs curate an exquisite menu showcasing diverse flavors and spices. Authentic ingredients ensure highest quality and authenticity. 
+                Step into the warm ambience inspired by Mumbai streets. 
+                <br><br>From street food favorites to traditional thalis, our menu caters to all tastes. Our friendly staff guides you through this culinary journey. 
+
+                <br><br>Join us at Maharashtra Delights and savor the vibrant flavors, rich traditions, and culinary marvels of Maharashtra in the heart of Los Angeles.
+            </p></figure>
+        </div> 
+        
+        <div class="right">        
+            <figure class="back" style="background:url(namaskar.jpeg) no-repeat center center fixed; background-size: cover;">
+            
+            </figure>
+            <figure class="front">
+            <div >
+                <p class="title"> Maharashtra Delights</p>
+                <h2 class="author">Artesia, Los Angeles</h2><br>
+
+                <div>
+                <span class="catchLine">Craving for a Maharastrian delicacy? 
+                <br>Order us right away! :)</span><br>
+                <div style="margin:60px">
+                <button class="buttons firstPage" onclick="turnTwice()">
+                    Register
+                </button>
+                <button class="buttons firstPage" onclick="turnThrice()">
+                    Login
+                </button>
+                </div>
+                </div>
+            </div>
+            </figure>
+            
+            
+        </div>
+        
+        <div class="right">
+            <figure class="back" style="width:100%; height: 100%; background: url(thali.jpeg); no-repeat center center fixed; background-size: cover;"></figure>
+            <figure class="front" id="cover">
+                <h1>Maharashtra Delights</h1>
+                <p>Artesia, Los Angeles</p>
+            </figure>
+        </div>
+    </div>
+
+    <div class="buttonDiv">
+        <button class="buttons PrevB" onclick="turnLeft()">Previous Page</button> 
+        <button class="buttons NextB"  onclick="turnRight()">Next Page</button>
+</div>
+    <br/>
+</div>
+
+<script>
+var right = document.getElementsByClassName("right");
+var si = right.length;
+var z=1;
+
+turnRight();
+
+function turnRight() {
+    if(si>=1){
+        si--;
+    }
+    else{
+        si=right.length-1;
+        function sttmot(i){
+            setTimeout(function(){right[i].style.zIndex="auto";},300);
+        }
+        for(var i=0;i<right.length;i++){
+            right[i].className="right";
+            sttmot(i);
+            z=1;
+        }
+    }
+    right[si].classList.add("flip");
+    z++;
+    right[si].style.zIndex=z;
+}
+
+function turnLeft() {
+    if(si<right.length){
+        si++;
+    }
+    else{
+        si=1;
+        for(var i=right.length-1;i>0;i--){
+            right[i].classList.add("flip");
+            right[i].style.zIndex=right.length+1-i;
+        }
+    }
+    right[si-1].className="right";
+    setTimeout(function(){right[si-1].style.zIndex="auto";},350);
+}
+
+function turnTwice() {
+    turnRight();
+    turnRight();
+}
+
+function turnThrice() {
+    turnRight();
+    turnRight();
+    turnRight();
+}
+
+</script>
