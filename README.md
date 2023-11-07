@@ -4,9 +4,9 @@
 This is a cafeteria (restaurant) application built using Ruby on Rails and SQLite3 database. The project allows user login, payment for a specific order, browsing the menu catalogue, and allows the manager to add menu to the menu catalogue.
 
 ### Dependencies
-Rails 6.1.3.1
-Ruby 3.0.0
-Database: SQLite3/development
+Rails 6.1.3.1 \
+Ruby 3.0.0 \
+Database: SQLite3/development \
 Tables: Menus, Order, Order_Items, Users (Setup mentioned below)
 
 ### How to run this project locally?
@@ -59,6 +59,10 @@ rails s
 OR 
 bundle execute rails s
 ```
+-- Feel free to open a discussion if you have difficulties setting up the application
+
+## Project Demo: 
+https://github.com/aparna0522/Maharashtra-Delights/assets/36110304/31951e02-fbe1-47ff-9038-7df772bb8182
 
 ### Possible Future Refinements:
 1. Allowing only the manager to view the /addmenu endpoint. 
